@@ -6,5 +6,3 @@ function Menu() {
     x.className = "topnav"; // lihtsalt on seal, kui ple aktiivne
     }
 }
-
-

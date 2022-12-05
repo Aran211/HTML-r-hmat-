@@ -1,8 +1,13 @@
 
 body {
     margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: sans-serif;
     background-color: rgb(32, 28, 28);
+    font-size: 1.125em;
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+
 }
 
 .topnav {
@@ -54,16 +59,33 @@ body {
     }
 }
 p{
+    margin: 3;
     color: white;
     font-family: 'Helvetica Neue', sans-serif;
+    padding: 3rem;
 }
 h1{
-    color: white; 
-    font-family: 'Helvetica Neue', sans-serif; 
-    font-size: 46px; 
+    color:rgb(196, 79, 44); 
+    font-family: sans-serif; 
+    font-size: 50px; 
     font-weight: 100; 
     line-height: 50px; 
-    letter-spacing: 1px; 
+    letter-spacing: 2px; 
     padding: 0 0 40px; 
     border-bottom: double #555;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+footer {
+    background: white;
+    color: black;
+    padding: 2em;
+    grid-column: 1/-1;
+    margin-top: auto;
+    
+}
+
+.checked {
+    color: orange;
 }
