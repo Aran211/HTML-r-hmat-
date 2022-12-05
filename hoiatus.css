@@ -1,3 +1,20 @@
+body {
+  background-color: rgb(32, 28, 28);
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+  
+}
+.box {
+  background: white;
+  width: 550px;
+  height: 400px;
+  margin: auto;
+  margin-top: 200px;
+
+  box-shadow: 20px 20px 20px;
+  
+}
 /* Nupu näidis https://getcssscan.com/css-buttons-examples*/
 .button-24 {
   background: black;
@@ -5,7 +22,7 @@
   border-radius: 6px;
   box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
   box-sizing: border-box;
-  color: #FFFFFF;
+  color: white;
   cursor: pointer;
   display: inline-block;
   font-family: nunito,roboto,proxima-nova,"proxima nova",sans-serif;
