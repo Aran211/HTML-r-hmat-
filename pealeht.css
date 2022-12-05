@@ -123,3 +123,12 @@ p{
     font-family: 'Helvetica Neue', sans-serif;
     padding: 3rem;
 }
+
+footer {
+    background: black;
+    color: white;
+    padding: 1em;
+    grid-column: 1/-1;
+    margin-top: auto;
+    text-align: center;
+}
