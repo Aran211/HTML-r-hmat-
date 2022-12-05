@@ -87,3 +87,8 @@ footer {
 .checked {
     color: orange;
 }
+
+form{
+    color:rgb(196, 79, 44);
+    margin: 3rem;
+}
