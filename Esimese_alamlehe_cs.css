@@ -85,10 +85,7 @@ footer {
     margin-top: auto;
     
 }
-meter {
-    width: 200px;
-    height: 20px;
-    
-    
-}
 
+.checked {
+    color: orange;
+}
